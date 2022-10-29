@@ -1,0 +1,9 @@
+.logo_footer.css {
+  position: relative;
+  width: 228px;
+  height: 32px;
+  display: flex;
+  min-height: auto;
+  flex-direction: column;
+  margin: 20px 0 16px;
+}
