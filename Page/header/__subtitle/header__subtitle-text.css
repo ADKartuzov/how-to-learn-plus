@@ -1,4 +1,6 @@
 .header__subtitle-text {
   line-height: 25px;
   font-size: 18px;
+  position:relative;
+  z-index: 1;
 }

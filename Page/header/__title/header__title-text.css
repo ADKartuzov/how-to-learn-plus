@@ -2,5 +2,6 @@
   font-weight: 600;
   line-height: 96px;
   font-size: 102px;
+  position:relative;
   z-index: 1;
 }
