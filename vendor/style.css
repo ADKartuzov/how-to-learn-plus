@@ -2,37 +2,16 @@
   font-family:'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(../vendor/fonts/Inter-Bold.ttf), url(../vendor/fonts/Inter-Black.ttf), url(../vendor/fonts/Inter-ExtraBold.ttf), url(../vendor/fonts/Inter-ExtraLight.ttf), url(../vendor/fonts/Inter-Light.ttf), url(../vendor/fonts/Inter-Medium.ttf), url(../vendor/fonts/Inter-Regular.ttf), url(../vendor/fonts/Inter-SemiBold.ttf), url(../vendor/fonts/Inter-Thin.ttf)
+  src: local('Arial'), local('sans-serif'),
+  url("../vendor/fonts/Inter-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', Arial, sans-serif;
-}
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+@font-face {
+  font-family:'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Arial'), local('sans-serif'),
+  url("../vendor/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-display: swap;
 }
