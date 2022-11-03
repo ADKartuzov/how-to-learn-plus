@@ -1,6 +1,6 @@
 .footer__social-icon {
-  display: flex;
-  min-height: auto;
-  flex-direction: column;
-  margin: 20px 0 16px;
+  line-height: 18px;
+  font-size: 18px;
+  padding: 0;
+  margin: 0 auto;
 }

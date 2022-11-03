@@ -1,5 +1,6 @@
-.main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   list-style-type: none;
+  padding: 0;
 }

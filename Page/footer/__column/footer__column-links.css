@@ -1,6 +1,14 @@
 .footer__column-links {
-  display: flex;
+  display: inline-block;
+  text-align: left;
   min-height: auto;
   flex-direction: column;
+  list-style-type: none;
+  color: #fff;
   margin: 20px 0 16px;
+  padding: 0;
+}
+
+.footer__column-links li:nth-child(2n) {
+  margin: 10px 0;
 }

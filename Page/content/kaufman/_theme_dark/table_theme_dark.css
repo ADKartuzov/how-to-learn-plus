@@ -1,8 +1,7 @@
 .table_theme_dark {
   font-weight: 600;
-  text-align: center;
-  list-style-type: decimal; 
+  text-align: left; 
   font-size: 18px;
-  color: #f2f2f2;
+  color: #fff;
   z-index: 1;
 }
