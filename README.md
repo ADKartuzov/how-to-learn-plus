@@ -4,6 +4,6 @@
 
 Использованы технологии: HTML, CSS
 
-
+[GitHub-Pages](https://github.com/ADKartuzov/how-to-learn-plus.git)
 
 

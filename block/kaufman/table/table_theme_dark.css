@@ -1,0 +1,7 @@
+.table_theme_dark {
+  font-weight: 600;
+  text-align: left; 
+  font-size: 18px;
+  color: #fff;
+  z-index: 2;
+}

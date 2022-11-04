@@ -1,0 +1,9 @@
+.footer__column_content_info {
+  display: flex;
+  width: max-content;
+  min-height: auto;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  flex: 1;
+}

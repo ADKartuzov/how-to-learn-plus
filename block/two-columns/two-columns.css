@@ -1,0 +1,10 @@
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two-columns p:nth-last-child(2){
+  margin: 30px 0;
+}

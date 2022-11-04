@@ -1,11 +1,14 @@
 .header__title {
     display: flex;
     align-items: center;
-    padding-left: 64px; 
-    width: 730px; 
-    font-weight: 600; 
-    line-height: 96px; 
-    font-size: 102px; 
+    position: absolute;
+    left: 64px;
+    top: 30px;
+    overflow: hidden;
+    max-width: 730px; 
+    font-weight: 600;  
+    line-height: 96px;  
+    font-size: 102px;  
     z-index: 2;
-    margin: left auto; 
+    height: 60vh;
 }
