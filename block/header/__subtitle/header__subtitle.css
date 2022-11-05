@@ -6,4 +6,6 @@
   line-height: 25px; 
   font-size: 18px; 
   z-index: 2;
+  margin: 0 auto;
+  padding: 0;
 }
